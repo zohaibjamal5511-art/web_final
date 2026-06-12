@@ -12,8 +12,8 @@
             <div class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 text-white font-bold mb-3">
                 Ω
             </div>
-            <h2 class="text-xl font-bold tracking-tight text-slate-900">Admin Control Gate</h2>
-            <p class="text-xs text-slate-400 mt-1">Authenticate telemetry terminal context</p>
+            <h2 class="text-xl font-bold tracking-tight text-slate-900">Admin Control</h2>
+            <p class="text-xs text-slate-400 mt-1">Authenticate Admin Dashboard</p>
         </div>
 
         @if ($errors->any())
@@ -25,15 +25,15 @@
         <form action="{{ route('admin.login') }}" method="POST" class="space-y-4">
             @csrf
             <div>
-                <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1.5">Terminal ID Name</label>
+                <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1.5">Username</label>
                 <input type="text" name="username" required placeholder="e.g., admin" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:border-slate-900 focus:bg-white focus:outline-none transition-all">
             </div>
             <div>
-                <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1.5">Security Password Token</label>
+                <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1.5"> Password</label>
                 <input type="password" name="password" required placeholder="••••••••" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:border-slate-900 focus:bg-white focus:outline-none transition-all">
             </div>
             <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-semibold py-3.5 rounded-xl text-sm transition-all shadow-sm mt-2">
-                Mount Matrix Terminal
+                Login
             </button>
         </form>
     </div>

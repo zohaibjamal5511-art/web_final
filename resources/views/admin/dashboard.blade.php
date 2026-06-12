@@ -15,13 +15,13 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 justify-between items-center">
                 <div class="flex items-center gap-x-3">
-                    <span class="bg-white/10 px-2.5 py-1 rounded-md text-xs font-mono text-indigo-400 border border-white/5">ROOT</span>
-                    <span class="text-sm font-bold tracking-tight">CreatorMind <span class="text-slate-400 font-normal">Global Master Console</span></span>
+                    <span class="bg-white/10 px-2.5 py-1 rounded-md text-xs font-mono text-indigo-400 border border-white/5"></span>
+                    <span class="text-sm font-bold tracking-tight">CreatorMind </span>
                 </div>
                 <form method="POST" action="{{ route('admin.logout') }}">
                     @csrf
                     <button type="submit" class="text-xs bg-rose-600/20 text-rose-400 border border-rose-500/20 hover:bg-rose-600 hover:text-white font-bold py-2 px-3 rounded-lg transition-all">
-                        Unmount System Console
+                        Logout
                     </button>
                 </form>
             </div>

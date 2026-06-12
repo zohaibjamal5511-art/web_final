@@ -64,7 +64,7 @@
             </div>
 
             <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3.5 rounded-xl text-xs transition-all shadow-md mt-2">
-                Provision New Workspace
+                Register
             </button>
         </form>
 

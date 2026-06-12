@@ -60,7 +60,7 @@
                 <div class="text-center max-w-3xl mx-auto">
                     <div class="inline-flex items-center gap-x-2 rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700 ring-1 ring-inset ring-indigo-600/10 mb-6">
                         <span class="flex h-1.5 w-1.5 rounded-full bg-indigo-600 animate-pulse"></span>
-                        Powered by OpenRouter AI Framework
+                        Powered by AI
                     </div>
                     <h1 class="text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl leading-[1.15]">
                         Stop staring at a blank screen. <br>
@@ -244,7 +244,7 @@
                     <!-- Secondary Contextual Admin Link for Grading or Overlook Evaluation -->
                     <div class="mt-2">
                         <a href="{{ route('admin.login') }}" class="text-xs font-semibold text-slate-400 hover:text-slate-600 transition-colors underline decoration-dotted tracking-wide">
-                            System Kernel: Access System Admin Telemetry Board →
+                            Access System Admin →
                         </a>
                     </div>
                 </div>
@@ -261,8 +261,8 @@
             </div>
             <div class="flex gap-x-6 text-xs text-slate-500 font-medium">
                 <a href="#" class="hover:text-indigo-600 transition-colors">Documentation</a>
-                <a href="#" class="hover:text-indigo-600 transition-colors">Privacy Architecture</a>
-                <a href="#" class="hover:text-indigo-600 transition-colors">API Status</a>
+                <a href="#" class="hover:text-indigo-600 transition-colors">Privacy</a>
+                <a href="#" class="hover:text-indigo-600 transition-colors">Status</a>
             </div>
         </div>
     </footer>

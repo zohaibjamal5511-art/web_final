@@ -23,7 +23,7 @@
                         <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 text-white font-bold shadow-md">
                             C
                         </div>
-                        <span class="text-base font-bold tracking-tight text-slate-900">Creator<span class="text-indigo-600">Mind</span> <span class="text-xs font-normal text-slate-400 border border-slate-200 px-2 py-0.5 rounded-md ml-1 bg-slate-50">/work</span></span>
+                        <span class="text-base font-bold tracking-tight text-slate-900">Creator<span class="text-indigo-600">Mind</span> </span>
                     </div>
                     
                     <div class="flex items-center gap-x-6">
@@ -85,7 +85,7 @@
                     <dd class="mt-1 text-2xl font-bold text-slate-900">{{ count($savedIdeas) }} Concepts</dd>
                 </div>
                 <div class="rounded-xl bg-white border border-slate-200 p-5 shadow-xs">
-                    <dt class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Your API Processing Compute</dt>
+                    <dt class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Your AI Processing Compute</dt>
                     <dd class="mt-1 text-2xl font-bold text-slate-900">{{ $totalTime }} Minutes</dd>
                 </div>
                 <div class="rounded-xl bg-gradient-to-br from-indigo-50/60 to-white border border-slate-200 p-5 shadow-xs sm:col-span-2 lg:col-span-1">
@@ -150,7 +150,7 @@
                     <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs">
                         <h3 class="text-sm font-bold text-slate-900 border-b border-slate-100 pb-3 mb-4 flex items-center justify-between">
                             <span>⚡ Live Active Workspace Output Feed</span>
-                            <span class="text-[10px] font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-md">Isolated User View</span>
+                            <span class="text-[10px] font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-md">Output Result</span>
                         </h3>
                         
                         @if(count($savedIdeas) === 0)
